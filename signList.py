@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 url = "http://www.clchuwai.com/travel/detail/%s#userjoin"
 def ciyun(text, id):
     from os import path
-    from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
+    from wordcloud import WordCloud
     # get data directory (using getcwd() is needed to support running example in generated IPython notebook)
     d = path.dirname(__file__) if "__file__" in locals() else os.getcwd()
 
