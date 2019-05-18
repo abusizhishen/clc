@@ -12,8 +12,8 @@ def ciyun(text, id):
 
     # Read the whole text.
     # Generate a word cloud image
-    font = r'/font/font.ttf'
-    wordcloud = WordCloud(font_path=font, width=600, height=600, max_font_size=40,
+    font = r'./msyh.ttf'
+    wordcloud = WordCloud(font_path=font, width=800, height=800, max_font_size=40,
                           random_state=42, max_words=100).generate(text)
 
     # Display the generated image:
