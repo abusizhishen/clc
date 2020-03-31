@@ -1,3 +1,4 @@
+# encoding=utf8
 import os, sys
 from requests import Session
 from lxml import html
