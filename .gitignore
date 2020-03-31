@@ -1,3 +1,4 @@
 *.png
+leaderData.txt
 venv/*
 .idea/*
